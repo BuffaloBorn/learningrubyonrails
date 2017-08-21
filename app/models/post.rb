@@ -16,4 +16,12 @@ class Post < ActiveRecord::Base
 	def to_s
 		title
 	end
+
+    def self.somerandommethod
+        true
+    end
+
+    def sometherandommethod
+        true
+    end
 end
